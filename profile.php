@@ -1,5 +1,4 @@
 <?php
-// Komentar bebas: Latihan praktikum Bab 14 - Git Revert Commit
 $pageTitle = 'Profil - Telkom University';
 require 'config/koneksi.php';
 require 'includes/header.php';
