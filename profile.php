@@ -23,7 +23,15 @@ if ($resultProdi) {
     
     <h2>Tujuan proyek</h2>
     <p>Proyek menampilkan profil, program studi, berita, serta formulir kontak. Data program studi dan berita dibaca dari database, sedangkan pesan pengguna disimpan menggunakan prepared statement.</p>
-    
+
+    <!-- Section Baru: Fokus Pembelajaran (Branch: feature-campus-info) -->
+    <h2>Fokus Pembelajaran</h2>
+    <ul>
+      <li><strong>Pengembangan Web & Database:</strong> Mengintegrasikan antarmuka HTML/CSS dengan PHP native dan MySQL/MariaDB.</li>
+      <li><strong>Keamanan & Validasi Data:</strong> Menerapkan sanitasi input dan prepared statement pada formulir interaktif.</li>
+      <li><strong>Git Workflow & Version Control:</strong> Mengelola branch, melakukan commit terstruktur, dan merging proyek ke remote repository.</li>
+    </ul>
+
     <div class="alert alert-success" style="margin-top: 16px; margin-bottom: 24px;">
       Konten institusi pada website ini bersifat simulasi untuk keperluan praktikum.
     </div>
