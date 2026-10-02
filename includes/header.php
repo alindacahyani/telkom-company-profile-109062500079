@@ -13,7 +13,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 <body>
 <header class="site-header">
     <div class="container nav-wrap">
-        <a class="brand" href="index.php">
+        <a class="brand" href="profile.php">
             <span class="brand-mark">TU</span>
             <span>
                 <strong>Telkom University</strong>
@@ -21,11 +21,11 @@ $currentPage = basename($_SERVER['PHP_SELF']);
             </span>
         </a>
         <nav class="main-nav" aria-label="Navigasi utama">
-            <a class="<?= $currentPage === 'index.php' ? 'active' : '' ?>" href="index.php">Beranda</a>
+            <a class="<?= $currentPage === 'index.php' || $currentPage === 'profile.php' ? 'active' : '' ?>" href="profile.php">Beranda</a>
             <a class="<?= $currentPage === 'profile.php' ? 'active' : '' ?>" href="profile.php">Profil</a>
-            <a class="<?= $currentPage === 'programs.php' ? 'active' : '' ?>" href="programs.php">Program Studi</a>
-            <a class="<?= in_array($currentPage, ['news.php', 'news_detail.php']) ? 'active' : '' ?>" href="news.php">Berita</a>
-            <a class="<?= $currentPage === 'contact.php' ? 'active' : '' ?>" href="contact.php">Kontak</a>
+            <a class="<?= $currentPage === 'prodi.php' ? 'active' : '' ?>" href="prodi.php">Program Studi</a>
+            <a class="<?= in_array($currentPage, ['berita.php', 'detail_berita.php']) ? 'active' : '' ?>" href="berita.php">Berita</a>
+            <a class="<?= $currentPage === 'kontak.php' ? 'active' : '' ?>" href="kontak.php">Kontak</a>
         </nav>
     </div>
 </header>
